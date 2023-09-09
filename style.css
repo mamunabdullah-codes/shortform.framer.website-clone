@@ -3,6 +3,7 @@
 :root {
   --primary-color: #e0f014;
   --dark-color: #14151c;
+  --light-dark-color: #272933;
   --text-color: #ffffff;
   --text-color-secondary: #c1c4d0;
 }
@@ -152,10 +153,18 @@ span {
   overflow: hidden;
 }
 
-.content {
-  padding: 4.2rem 4.2rem;
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-dark-color);
+  height: 140px;
 }
-
+.stat-head {
+  font-size: 5rem;
+  font-weight: 500;
+}
 /* .video-image {
   position: absolute;
   top: 0;
