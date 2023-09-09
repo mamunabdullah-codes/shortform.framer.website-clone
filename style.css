@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #e0f014;
+  --dark-color: #14151c;
+  --text-color: #ffffff;
+  --text-color-secondary: #c1c4d0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Instrument Sans", sans-serif;
+  background-color: var(--dark-color);
+}
+
+/***********
+ * BUTTONS *
+ ***********/
+
+.btn {
+  border-radius: 0;
+  font-weight: 600;
+  font-size: 2.4rem;
+  line-height: 1.7rem;
+  color: var(--text-color);
+  background-color: transparent;
+}
+
+.btn-primary {
+  border: 0.1rem solid var(--text-color);
+  color: var(--text-color);
+  background-color: transparent;
+  padding: 1.2rem 2.4rem;
+  display: inline-block;
+}
+
+.btn-secondary {
+  color: var(--dark-color);
+  background-color: var(--primary-color);
+  padding: 2.4rem 3.6rem;
+}
+
+.btn:hover {
+  background-color: var(--text-color);
+  color: var(--dark-color);
+  transition: background-color 0.5s ease;
+}
+
+span {
+  color: var(--primary-color);
+}
+
+/***********
+ * TOP BAR *
+ ***********/
+.top-bar {
+  background-color: var(--primary-color);
+  padding: 1rem 0;
+  margin-top: 0;
+}
+
+.top-bar:hover {
+  transition: all 0.5s ease-in-out;
+  background-color: var(--text-color);
+}
+
+/**********************
+ * NAVIGATION SECTION *
+ **********************/
+.navbar-toggler-icon {
+  border: none !important;
+  border-color: var(--dark-color);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.nav-link {
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  font-weight: 500;
+  text-align: center;
+  color: var(--text-color);
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+  /* background-color: #ffffff; */
+}
+
+/****************
+ * HERO SECTION *
+ ****************/
+.hero-contents {
+  max-width: 85rem;
+  /* height: 85rem; */
+  margin: 0 auto;
+}
+.hero-contents h1 {
+  font-size: 5.2rem;
+  font-weight: 500;
+  line-height: 5.7rem;
+  color: var(--text-color);
+  max-width: 85rem;
+}
+
+.hero-contents p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  max-width: 60rem;
+  color: var(--text-color-secondary);
+}
+
+.hero-contents h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--text-color);
+  max-width: 85rem;
+}
+
+.hero-contents h4 {
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 3rem;
+  color: var(--text-color);
+  max-width: 85rem;
+}
+
+.rounded-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  border: 0.2rem solid var(--primary-color);
+  object-fit: cover;
+  object-position: center;
+}
+
+.video-wrapper {
+  position: relative;
+  aspect-ratio: 16/9;
+  border-radius: 0px;
+  transform: unset;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.content {
+  padding: 4.2rem 4.2rem;
+}
+
+/* .video-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(https://i.ytimg.com/vi_webp/smPos0mJvh8/maxresdefault.webp);
+  background: center / cover;
+} */
