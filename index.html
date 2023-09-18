@@ -27,7 +27,7 @@
       <h4 class="fs-3">Accepting 4 new clients. Get started -></h4>
     </div>
 
-    /********************** * NAVIGATION SECTION * **********************/
+    <!-- NAVIGATION SECTION  -->
     <div class="container">
       <nav class="navbar navbar-dark border-none navbar-expand-lg">
         <div class="container-fluid">
@@ -128,23 +128,27 @@
 
       <h4 class="mt-5">Watch this video to learn how we do it 👇</h4>
     </section>
-    <div class="container video-wrapper position-relative">
-      <iframe
-        src="https://www.youtube.com/embed/smPos0mJvh8?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=1"
-        frameborder="0"
-        allow="presentation; fullscreen; accelerometer; encrypted-media;"
-        style="width: 100%; height: 100%"
-        id="video"
-      ></iframe>
-    </div>
-    <a
-      class="container text-center btn btn-secondary d-inline-block d-flex d-content-center mb-5"
-      href="#video"
-      >Get Started 👉</a
-    >
+    <!-- Video Section  -->
+    <section class="video">
+      <div class="container video-wrapper position-relative">
+        <iframe
+          src="https://www.youtube.com/embed/smPos0mJvh8?iv_load_policy=3&amp;rel=0&amp;modestbranding=1&amp;playsinline=1&amp;autoplay=1"
+          frameborder="0"
+          allow="presentation; fullscreen; accelerometer; encrypted-media;"
+          style="width: 100%; height: 100%"
+          id="video"
+        ></iframe>
+      </div>
+      <a
+        class="container text-center btn btn-secondary d-inline-block d-flex d-content-center mb-5"
+        href="#video"
+        >Get Started 👉</a
+      >
+    </section>
 
+    <!-- Stat Section  -->
     <section class="container">
-      <div class="">
+      <div class="mb-5">
         <div
           class="d-flex flex-column align-items-center justify-content-center gap-4 lg:row"
         >
@@ -153,16 +157,16 @@
             <p class="lead text-light fs-2 fw-semibold">Videos edited</p>
           </div>
           <div class="stat container lg:col-3">
-            <span><h2 class="stat-head">10K+</h2></span>
-            <p class="lead text-light fs-2 fw-semibold">Videos edited</p>
+            <span><h2 class="stat-head">1.8M+</h2></span>
+            <p class="lead text-light fs-2 fw-semibold">Followers Added</p>
           </div>
           <div class="stat container lg:col-3">
-            <span><h2 class="stat-head">10K+</h2></span>
-            <p class="lead text-light fs-2 fw-semibold">Videos edited</p>
+            <span><h2 class="stat-head">15</h2></span>
+            <p class="lead text-light fs-2 fw-semibold">Viral Brands</p>
           </div>
           <div class="stat container lg:col-3">
-            <span><h2 class="stat-head">10K+</h2></span>
-            <p class="lead text-light fs-2 fw-semibold">Videos edited</p>
+            <span><h2 class="stat-head">1B+</h2></span>
+            <p class="lead text-light fs-2 fw-semibold">Views Generated</p>
           </div>
         </div>
         <div class="">
@@ -172,21 +176,71 @@
       </div>
     </section>
 
-    <!-- comment section  -->
-    <!-- <div
-      class="video-image text-center position-relative container d-flex flex-column"
-    >
-      <a href="#">
-        <img
-          class="container relative"
-          src="https://i.ytimg.com/vi_webp/smPos0mJvh8/maxresdefault.webp"
-          alt="img"
-        />
-      </a>
-    </div> -->
+    <!-- Service Section  -->
+    <div class="container mt-5 d-flex align-content-center md:flex-lg-column">
+      <div
+        class="about-service d-flex flex-md-column justify-content-center gap-4 text-start"
+      >
+        <h3 class="text-md-start text-center"><span>SERVICES</span></h3>
+        <h2 class="fs-1 text-light">How we automate your brand's growth</h2>
+        <p class="lead fs-3 text-white-50">
+          We explode our client's brands by utilizing skills and methods that
+          help us get people hooked, and show them what they want to see.
+        </p>
+        <div>
+          <a class="btn btn-secondary mb-3" href="#">Speak to us today</a>
+          <div class="audit-call">
+            <img
+              style="height: 30px; width: 30x"
+              src="images/clock.svg"
+              alt="clock"
+            />
+            <h6
+              class="text-decoration-none text-white-50 fs-3 fw-medium"
+              href="#"
+            >
+              No-pressure 30 minute audit call
+            </h6>
+          </div>
+        </div>
+      </div>
+      <div class="services d-flex flex-column gap-5">
+        <div class="video-editing">
+          <div class="bg-secondary bg-opacity-25 p-5">
+            <img src="images/tick.png" alt="tick" />
+            <h2 class="text-light my-4 fs-1">Video editing</h2>
+            <p class="text-light opacity-75 lead fs-2">
+              We edit your long form content into engaging short form videos
+              that use techniques for grabbing user's attention.
+            </p>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <div class="bg-secondary bg-opacity-25 p-5">
+            <img src="images/tick.png" alt="tick" />
+            <h2 class="text-light my-4 fs-1">Thumbnail creation</h2>
+            <p class="text-light opacity-75 lead fs-2">
+              The thumbnail is very important for CTR, and we strive to optimize
+              each video with the best thumbnail possible.
+            </p>
+          </div>
+        </div>
+        <div class="upload">
+          <div class="bg-secondary bg-opacity-25 p-5">
+            <img src="images/tick.png" alt="tick" />
+            <h2 class="text-light my-4 fs-1">Upload scheduling</h2>
+            <p class="text-light opacity-75 lead fs-2">
+              Forget about manually uploading and wondering if you've scheduled
+              the posts each month. We got you.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Bootstrap JS  -->
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.6.1/dist/js/bootstrap.bundle.min.js"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
       crossorigin="anonymous"
     ></script>
